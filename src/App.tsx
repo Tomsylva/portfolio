@@ -1,11 +1,21 @@
 import './App.css';
+import React from 'react';
+import Landing from './Landing';
 
-function App() {
+function App() :JSX.Element {
+
+  const [homePage, setHomePage] = React.useState<boolean>(true)
+
+  function begin () {
+    setHomePage(false)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Oh my, you smell fantastic today</h1>
-      </header>
+      {homePage ? <>
+      <Landing/>
+      <button onClick={begin}>Portfolio</button>
+      </> : <>You found me</>}
     </div>
   );
 }
