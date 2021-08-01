@@ -3,7 +3,7 @@ import React from 'react';
 import Landing from './Landing';
 import Navbar from './Navbar';
 import Projects from './Projects';
-import projects from "./projects-db";
+// import projects from "./projects-db";
 
 function App() : JSX.Element {
 
