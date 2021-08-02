@@ -5,8 +5,8 @@
 }
 
 .project-div {
-  width: 80%;
-  margin: 1.5rem auto;
+  width: 90%;
+  margin: 1rem auto;
   border-radius: 10px;
   padding: 2rem 0;
   background-position: center;
@@ -15,6 +15,7 @@
 
 .project-container {
   width: 100vw;
+  padding: 2rem 0;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -89,4 +90,16 @@ li {
   padding: 0 1rem;
   font-family: "Open Sans", sans-serif;
   color: rgb(92, 92, 92);
+  background: rgba(255, 255, 255, 0);
+  transition: all 0.4s;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+
+li:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 8px 6px rgb(255, 251, 35), 0px 5px 35px rgb(255, 251, 35);
 }

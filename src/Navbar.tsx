@@ -2,9 +2,9 @@ function Navbar() : JSX.Element {
     return (
         <nav>
             <ul>
-                <li>Contact</li>
-                <li>About</li>
-                <li>Projects</li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
             </ul>
         </nav>
     )
