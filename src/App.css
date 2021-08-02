@@ -4,10 +4,6 @@
   width: 100vw;
 }
 
-li {
-  list-style: none;
-}
-
 .project-div {
   width: 80%;
   margin: 1.5rem auto;
@@ -75,4 +71,22 @@ h1 {
 .start-button:active {
   background: rgb(255, 251, 35);
   box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
+}
+
+nav {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px;
+  padding: 0.8rem 4rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(92, 92, 92);
 }
