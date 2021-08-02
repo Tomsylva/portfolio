@@ -1,11 +1,12 @@
 function Navbar() : JSX.Element {
     return (
         <>
-            <ul>
+            {/* <ul>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
+            </ul> */}
+            <h3>Nav</h3>
         </>
     )
 }
