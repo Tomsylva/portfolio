@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 li {
@@ -24,4 +26,48 @@ li {
 .project-link {
   background: rgba(255, 255, 255, 0.623);
   padding: 2rem;
+}
+
+#home-image {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
+  margin: 1rem;
+}
+
+#home-h1,
+#home-h3,
+.start-button {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(92, 92, 92);
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#home-page-div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start-button {
+  margin: 1rem;
+  border: none;
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.start-button:hover {
+  background: rgb(255, 251, 35);
+  transform: scale(1.1);
 }

@@ -15,12 +15,12 @@ function App() : JSX.Element {
 
   return (
     <div className="App">
-      {homePage ? <>
-      <Landing/>
-      <button onClick={begin}>Portfolio</button>
-      </> : <>
-      <Navbar />
-      <Projects />
+      {homePage ? <div id="home-page-div">
+        <Landing/>
+        <button onClick={begin} className="start-button">&lt; Portfolio &gt;</button>
+      </div> : <>
+        <Navbar />
+        <Projects />
       </>}
     </div>
   );
