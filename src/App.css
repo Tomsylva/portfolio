@@ -7,17 +7,21 @@ li {
 }
 
 .project-div {
-  width: 40%;
-  margin: 1rem;
+  width: 80%;
+  margin: 1.5rem auto;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 2rem 0;
   background-position: center;
   background-size: cover;
 }
 
 .project-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project-link {
+  background: rgba(255, 255, 255, 0.623);
+  padding: 2rem;
 }
