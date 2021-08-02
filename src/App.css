@@ -97,9 +97,14 @@ li {
 li a {
   text-decoration: none;
   color: rgb(92, 92, 92);
+  transition: all 0.4s;
 }
 
 li:hover {
   transform: scale(1.1);
   text-shadow: 2px 8px 6px rgb(255, 251, 35), 0px 5px 35px rgb(255, 251, 35);
+}
+
+li a:hover {
+  color: rgb(58, 58, 58);
 }
