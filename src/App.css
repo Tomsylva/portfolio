@@ -7,16 +7,17 @@ li {
 }
 
 .project-div {
-  border: 1px solid black;
   width: 40%;
   margin: 1rem;
   border-radius: 10px;
   padding: 1rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .project-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: nowrap;
 }

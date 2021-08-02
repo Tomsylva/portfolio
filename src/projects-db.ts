@@ -4,6 +4,7 @@ export const pina =  {
     technolgies: ["P5", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/Tomsylva/pina-collider",
     link: "https://tomsylva.github.io/pina-collider/",
+    image: "./pina.png",
 }
 
 export const create = {
@@ -12,6 +13,7 @@ export const create = {
     technolgies: ["NodeJS", "ExpressJS", "JavaScript", "HTML", "CSS", "Cloudinary", "MongoDB"],
     github: "https://github.com/Tomsylva/create-hub",
     link: "https://create-hub.herokuapp.com/",
+    image: "./create.png",
 }
 
 export const beepo = {
@@ -20,6 +22,7 @@ export const beepo = {
     technolgies: ["ReactJS", "ExpressJS", "JavaScript", "HTML", "CSS", "FramerMotion", "Howler"],
     github: "https://github.com/Tomsylva/beepo",
     link: "https://beepo.netlify.app/",
+    image: "./beepo.png",
 }
 
 export const vegetables = {
@@ -28,6 +31,7 @@ export const vegetables = {
     technolgies: ["ReactJS", "NodeJS", "ExpressJS", "LeafletJS", "MongoDB", "Axios", "JavaScript", "HTML", "CSS", "FramerMotion", "Cloudinary"],
     github: "https://github.com/Tomsylva/finish-your-vegetables",
     link: "https://finish-your-vegetables.netlify.app/",
+    image: "./vegetables.png",
 }
 
 export const elephant = {
@@ -36,6 +40,7 @@ export const elephant = {
     technolgies: ["ExpressJS", "NodeJS", "MongoDB", "JavaScript", "HTML", "CSS", "TinyAPI", "Cloudinary"],
     github: "https://github.com/Tomsylva/black-elephant-band",
     link: "http://theblackelephantband.com/",
+    image: "./elephant.png",
 }
 
 export const portfolio = {
@@ -44,4 +49,5 @@ export const portfolio = {
     technolgies: ["TypeScript", "ReactJS", "NodeJS", "HTML", "CSS", "FramerMotion"],
     github: "https://github.com/Tomsylva/portfolio",
     link: "https://tom-sylva.netlify.app/",
+    image: "./tom.png",
 }

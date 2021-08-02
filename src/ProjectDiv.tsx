@@ -1,14 +1,12 @@
 interface ProjectDivProps {
     name?: string;
-    description?: string;
     link?: string;
-    github?: string;
-    // technologies?: [string];
+    image?: string;
 }
 
-function ProjectDiv({name, /*description,*/ link/*, github*/} : ProjectDivProps) : JSX.Element {
+function ProjectDiv({name, link, image} : ProjectDivProps) : JSX.Element {
     return (
-        <div className="project-div">
+        <div className="project-div" style={{backgroundImage: `url(${image})`}}>
             <a href={link} target="_blank" rel="noreferrer"><h3>{name}</h3></a>
         </div>
     )
