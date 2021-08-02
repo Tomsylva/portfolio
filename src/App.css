@@ -64,10 +64,15 @@ h1 {
   background: white;
   box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
   font-size: 1rem;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 .start-button:hover {
-  background: rgb(255, 251, 35);
+  box-shadow: rgb(255, 251, 35, 0.7) 0px 24px 24px;
   transform: scale(1.1);
+}
+
+.start-button:active {
+  background: rgb(255, 251, 35);
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
 }

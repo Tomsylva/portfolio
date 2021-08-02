@@ -3,7 +3,6 @@ import React from 'react';
 import Landing from './Landing';
 import Navbar from './Navbar';
 import Projects from './Projects';
-// import projects from "./projects-db";
 
 function App() : JSX.Element {
 
@@ -17,7 +16,7 @@ function App() : JSX.Element {
     <div className="App">
       {homePage ? <div id="home-page-div">
         <Landing/>
-        <button onClick={begin} className="start-button">&lt; Portfolio &gt;</button>
+        <button onClick={begin} className="start-button">&lt; Portfolio /&gt;</button>
       </div> : <>
         <Navbar />
         <Projects />
