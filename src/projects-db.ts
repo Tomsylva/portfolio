@@ -54,5 +54,5 @@ export const portfolio = {
     technologies: ["TypeScript", "ReactJS", "NodeJS", "HTML", "CSS", "FramerMotion", "Swiper"],
     github: "https://github.com/Tomsylva/portfolio",
     link: "https://tom-sylva.netlify.app/",
-    image: "./tom.png",
+    image: "./portfolio.png",
 }
