@@ -3,6 +3,7 @@ import {pina, create, elephant, portfolio, vegetables, beepo} from "./projects-d
 
 function Projects() : JSX.Element {
     return (
+      // note
         <div className="project-container">
             <ProjectDiv name={pina.name} link={pina.link} image={pina.image}/>
             <ProjectDiv name={vegetables.name} link={vegetables.link} image={vegetables.image}/>
