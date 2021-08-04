@@ -3,7 +3,7 @@ import React from 'react';
 import Landing from './Landing';
 import Navbar from './Navbar';
 import Projects from './Projects';
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
 
 function App() : JSX.Element {
 

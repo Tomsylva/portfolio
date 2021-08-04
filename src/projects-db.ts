@@ -5,7 +5,8 @@ export const pina =  {
     github: "https://github.com/Tomsylva/pina-collider",
     link: "https://tomsylva.github.io/pina-collider/",
     image: "./pina.png",
-    // video: "./pina-video.mov"
+    // video: "./pina-video.mov",
+    display: "./pina-display.png",
 }
 
 export const create = {
