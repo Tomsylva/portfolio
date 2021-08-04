@@ -27,7 +27,7 @@
 }
 
 .overlay {
-  background: rgba(255, 255, 255, 0.479);
+  background: rgba(255, 255, 255, 0.747);
   padding: 3rem;
   border-radius: 10px 10px 0 0;
 }
@@ -208,4 +208,12 @@ nav ul button:hover {
 .swiper-pagination-bullet {
   height: 15px !important;
   width: 15px !important;
+}
+
+.icons {
+  font-size: 2rem;
+}
+
+.icons i {
+  padding: 0.5rem;
 }
