@@ -27,7 +27,9 @@ export const beepo = {
     github: "https://github.com/Tomsylva/beepo",
     link: "https://beepo.netlify.app/",
     image: "./beepo.png",
-    // video: "./beepo-demo.mp4"
+    // video: "./beepo-demo.mp4",
+    demo: "https://www.linkedin.com/feed/update/urn:li:activity:6822819835471257601/",
+    display: "./beepo-display.png",
 }
 
 export const vegetables = {
@@ -39,6 +41,7 @@ export const vegetables = {
     image: "./vegetables.png",
     // video: "./vegetables-video.mov",
     display: "./vegetables-display.png",
+    demo: "https://www.linkedin.com/feed/update/urn:li:activity:6817810944068997120/"
 }
 
 export const elephant = {
@@ -59,4 +62,5 @@ export const portfolio = {
     github: "https://github.com/Tomsylva/portfolio",
     link: "https://tom-sylva.netlify.app/",
     image: "./portfolio.png",
+    display: "./portfolio-display.png"
 }
