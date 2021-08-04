@@ -39,7 +39,16 @@ function App() : JSX.Element {
       hidden: { opacity: 0 },
       visible: { opacity: 1 },
     }}>
-      <img src="./tom.png" className="top-image" alt="a tiny tom"/>
+      <motion.img 
+      initial="hidden" 
+      animate="visible" 
+      transition={{duration: 1}}
+      variants={{
+        hidden: {scale: 0},
+        visible: {scale: 1}
+      }}
+      src="./tom.png" 
+      className="top-image" alt="a tiny tom"/>
             <ul>
                 <li><button onClick={() => changePage("contact")}>Contact</button></li>
                 <li><button onClick={() => changePage("about")}>About</button></li>

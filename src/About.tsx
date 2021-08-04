@@ -14,7 +14,7 @@ function About() : JSX.Element {
            <h1>About</h1>
            <br />
            <p>Full stack web developer based in Nürnberg, Germany.</p>
-           <p>IronHack Web Development Bootcamp graduate.</p>
+           <p><img src="./ironhack.png" alt="ironhack logo" className="ironhack"/> IronHack web development bootcamp graduate.</p>
            <br />
            <p><strong>Frameworks & Libraries: </strong>Handlebars <i className="fab fa-react"/> React <i className="fab fa-angular"/> Angular <i className="fab fa-bootstrap"/> Bootstrap</p>
            <p><strong>Frontend: </strong>TypeScript <i className="fab fa-html5"/> HTML <i className="fab fa-css3-alt"/> CSS <i className="fab fa-sass"/> SASS <i className="fab fa-js"/> JavaScript</p>

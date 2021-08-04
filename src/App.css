@@ -237,3 +237,8 @@ nav ul button:hover {
   box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
   float: left;
 }
+
+.ironhack {
+  height: 15px;
+  width: 15px;
+}
