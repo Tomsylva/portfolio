@@ -16,7 +16,8 @@ export const create = {
     github: "https://github.com/Tomsylva/create-hub",
     link: "https://create-hub.herokuapp.com/",
     image: "./create.png",
-    // video: "./create-video.mov"
+    // video: "./create-video.mov",
+    display: "./create-display.png"
 }
 
 export const beepo = {
@@ -42,7 +43,7 @@ export const vegetables = {
 
 export const elephant = {
     name: "Black Elephant Band",
-    description: "A band website with separate client and public views and functionality.",
+    description: "A band website with separate views and functionality for the client and public.",
     technologies: ["ExpressJS", "NodeJS", "MongoDB", "JavaScript", "HTML", "CSS", "TinyAPI", "Cloudinary"],
     github: "https://github.com/Tomsylva/black-elephant-band",
     link: "http://theblackelephantband.com/",

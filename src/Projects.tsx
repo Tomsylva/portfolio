@@ -21,7 +21,7 @@ function Projects() : JSX.Element {
       <SwiperSlide><ProjectDiv name={vegetables.name} link={vegetables.link} image={vegetables.image} description={vegetables.description} github={vegetables.github} technologies={vegetables.technologies} display={vegetables.display}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={beepo.name} link={beepo.link} image={beepo.image} description={beepo.description} github={beepo.github} technologies={beepo.technologies}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={elephant.name} link={elephant.link} image={elephant.image} description={elephant.description} github={elephant.github} technologies={elephant.technologies} display={elephant.display}/></SwiperSlide>
-      <SwiperSlide><ProjectDiv name={create.name} link={create.link} image={create.image} description={create.description} github={create.github} technologies={create.technologies}/></SwiperSlide>
+      <SwiperSlide><ProjectDiv name={create.name} link={create.link} image={create.image} description={create.description} github={create.github} technologies={create.technologies} display={create.display}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={portfolio.name} link={portfolio.link} image={portfolio.image} description={portfolio.description} github={portfolio.github} technologies={portfolio.technologies}/></SwiperSlide>
 
     </Swiper>
