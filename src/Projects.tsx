@@ -26,7 +26,7 @@ function Projects() : JSX.Element {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)} navigation pagination
     >
-      <SwiperSlide><h2>Swipe & see  <i className="fas fa-arrow-right"></i></h2></SwiperSlide>
+      <SwiperSlide><h2>swipe & see  <i className="fas fa-arrow-right"></i></h2></SwiperSlide>
       <SwiperSlide><ProjectDiv name={pina.name} link={pina.link} image={pina.image} description={pina.description} github={pina.github} technologies={pina.technologies} display={pina.display}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={vegetables.name} link={vegetables.link} image={vegetables.image} description={vegetables.description} github={vegetables.github} technologies={vegetables.technologies} display={vegetables.display} demo={vegetables.demo}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={beepo.name} link={beepo.link} image={beepo.image} description={beepo.description} github={beepo.github} technologies={beepo.technologies} demo={beepo.demo} display={beepo.display}/></SwiperSlide>

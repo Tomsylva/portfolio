@@ -213,8 +213,8 @@ nav ul button:hover {
 }
 
 .swiper-pagination-bullet {
-  height: 15px !important;
-  width: 15px !important;
+  height: 10px !important;
+  width: 10px !important;
 }
 
 .icons {
@@ -228,4 +228,12 @@ nav ul button:hover {
 .about-div p {
   padding: 0 1.5rem;
   color: rgb(92, 92, 92);
+}
+
+.top-image {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
+  float: left;
 }
