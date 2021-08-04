@@ -36,7 +36,8 @@ export const vegetables = {
     github: "https://github.com/Tomsylva/finish-your-vegetables",
     link: "https://finish-your-vegetables.netlify.app/",
     image: "./vegetables.png",
-    // video: "./vegetables-video.mov"
+    // video: "./vegetables-video.mov",
+    display: "./vegetables-display.png",
 }
 
 export const elephant = {
@@ -46,7 +47,8 @@ export const elephant = {
     github: "https://github.com/Tomsylva/black-elephant-band",
     link: "http://theblackelephantband.com/",
     image: "./elephant.png",
-    // video: "./elephant-video.mov"
+    // video: "./elephant-video.mov",
+    display: "./elephant-display.png"
 }
 
 export const portfolio = {
