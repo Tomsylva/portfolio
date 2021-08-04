@@ -50,6 +50,10 @@
   font-size: 0.7rem;
 }
 
+.project-div p {
+  padding: 0 2rem;
+}
+
 .project-link {
   background: white;
   text-decoration: none;
@@ -94,8 +98,26 @@ h1,
   margin: 0;
 }
 
+.contact-link {
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  font-size: 3rem;
+  transition: all 0.5s;
+}
+
+.contact-link:hover {
+  color: rgb(255, 251, 35);
+  text-shadow: 2px 8px 6px rgb(149, 157, 165), 0px 5px 20px rgb(149, 157, 165);
+}
+
 h1 {
   font-size: 3rem;
+}
+
+.contact-div {
+  padding-top: 150px;
 }
 
 #home-page-div {
@@ -149,19 +171,18 @@ nav ul li {
   transition: all 0.4s;
 }
 
-li a {
-  text-decoration: none;
+li button {
   color: rgb(92, 92, 92);
   transition: all 0.4s;
+  border: none;
+  background: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
 }
 
-nav ul li:hover {
+nav ul button:hover {
   transform: scale(1.1);
   text-shadow: 2px 8px 6px rgb(255, 251, 35), 0px 5px 35px rgb(255, 251, 35);
-}
-
-nav ul li a:hover {
-  color: rgb(58, 58, 58);
 }
 
 .swiper-button-next,
