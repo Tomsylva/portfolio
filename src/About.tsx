@@ -1,16 +1,29 @@
+import {motion} from "framer-motion";
+
 function About() : JSX.Element {
     return (
-        <div>
+        <motion.div 
+        initial="hidden"
+        animate="visible"
+        transition={{duration: 0.75}}
+        variants={{
+          hidden: { opacity: 0 },
+          visible: { opacity: 1 },
+        }}
+        className="about-div">
            <h1>About</h1>
+           <br />
            <p>Full stack web developer based in Nürnberg, Germany.</p>
            <p>IronHack Web Development Bootcamp graduate.</p>
-           <p><strong>Frameworks & Libraries: </strong>React <i className="fab fa-react"></i> Angular <i className="fab fa-angular"></i> Bootstrap <i className="fab fa-bootstrap"></i> Handlebars</p>
-           <p><strong>Frontend: </strong>HTML <i className="fab fa-html5"></i> CSS <i className="fab fa-css3-alt"></i> SASS <i className="fab fa-sass"></i> JavaScript(ES6) <i className="fab fa-js"></i> TypeScript</p>
-           <p><strong>Backend: </strong>NodeJS <i className="fab fa-node-js"></i> ExpressJS &#8226; Axios</p>
+           <br />
+           <p><strong>Frameworks & Libraries: </strong>Handlebars <i className="fab fa-react"/> React <i className="fab fa-angular"/> Angular <i className="fab fa-bootstrap"/> Bootstrap</p>
+           <p><strong>Frontend: </strong>TypeScript <i className="fab fa-html5"/> HTML <i className="fab fa-css3-alt"/> CSS <i className="fab fa-sass"/> SASS <i className="fab fa-js"/> JavaScript</p>
+           <p><strong>Backend: </strong>Axios <i className="fab fa-node-js"/> NodeJS <i className="fas fa-server"/> ExpressJS</p>
            <p><strong>Database: </strong>SQL <i className="fas fa-database"> </i> MongoDB</p>
            <p><strong>Version Control: </strong>Git <i className="fab fa-github"></i> GitHub</p>
-           <p className="icons"><i className="fas fa-coffee"></i><i className="fas fa-bicycle"></i><i className="fas fa-mountain"></i><i className="fas fa-guitar"></i><i className="fas fa-code"></i></p>
-        </div>
+           <br />
+           <p className="icons"><i className="fas fa-coffee"/><i className="fas fa-bicycle"/><i className="fas fa-mountain"/><i className="fas fa-guitar"/><i className="fas fa-code"/></p>
+        </motion.div>
     )
 }
 

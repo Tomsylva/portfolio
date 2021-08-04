@@ -31,13 +31,20 @@ function App() : JSX.Element {
       visible: { opacity: 1 },
     }} onClick={begin} className="start-button">&lt; Portfolio /&gt;</motion.button>
     </div> : <>
-    <nav>
+    <motion.nav
+    initial="hidden"
+    animate="visible"
+    transition={{duration: 0.75}}
+    variants={{
+      hidden: { opacity: 0 },
+      visible: { opacity: 1 },
+    }}>
             <ul>
                 <li><button onClick={() => changePage("contact")}>Contact</button></li>
                 <li><button onClick={() => changePage("about")}>About</button></li>
                 <li><button onClick={() => changePage("portfolio")}>Projects</button></li>
             </ul>
-        </nav>
+        </motion.nav>
         {currentPage === "portfolio" ? <Projects /> : currentPage === "contact" ? <Contact /> : <About />}
     </>
 }</div>
