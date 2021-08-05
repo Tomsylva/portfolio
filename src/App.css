@@ -275,13 +275,16 @@ nav ul button:hover {
   .about-div {
     padding-top: 10px;
   }
+  .start-button {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
   nav ul li {
-    padding: 0.2rem;
+    padding: 0.6rem;
   }
   nav {
     padding: 0.5rem 2rem;
-  }
-  .start-button {
-    padding: 1rem 2rem;
   }
 }
