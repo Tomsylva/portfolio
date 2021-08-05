@@ -39,7 +39,7 @@ function About() : JSX.Element {
              hidden: { opacity: 0 },
              visible: { opacity: 1 },
            }}>
-             <p className="icons"><i className="fas fa-coffee"/><i className="fas fa-bicycle"/><i className="fas fa-mountain"/><i className="fas fa-guitar"/><i className="fas fa-code"/></p></motion.div>
+             <div className="personality-icons"><p className="icons"><i className="fas fa-coffee"/><i className="fas fa-bicycle"/><i className="fas fa-mountain"/><i className="fas fa-guitar"/><i className="fas fa-code"/></p></div></motion.div>
         </motion.div>
     )
 }
