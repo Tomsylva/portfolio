@@ -279,7 +279,7 @@ nav ul button:hover {
     padding: 0.2rem;
   }
   nav {
-    margin: 0.5rem;
+    padding: 0.5rem 2rem;
   }
   .start-button {
     padding: 1rem 2rem;
