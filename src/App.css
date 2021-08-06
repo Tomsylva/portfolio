@@ -243,6 +243,10 @@ nav ul button:hover {
   width: 15px;
 }
 
+.fa-envelope {
+  font-size: 1.1rem;
+}
+
 @media screen and (max-width: 805px) {
   .project-display {
     height: 20vh;
