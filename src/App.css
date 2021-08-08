@@ -156,10 +156,10 @@ h1 {
   box-shadow: rgba(149, 157, 165, 0.15) 0px 12px 24px;
   transform: scale(1.1);
   background-color: rgb(255, 251, 35);
-  font-weight: bolder;
 }
 
-.start-button:active {
+.start-button:active,
+.project-link:active {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   font-weight: bolder;
