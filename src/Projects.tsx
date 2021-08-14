@@ -23,7 +23,6 @@ function Projects() : JSX.Element {
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)} navigation pagination
     >
       <SwiperSlide><h2>swipe & see  <i className="fas fa-arrow-right"></i></h2></SwiperSlide>
