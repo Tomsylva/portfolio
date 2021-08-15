@@ -5,7 +5,6 @@ export const pina =  {
     github: "https://github.com/Tomsylva/pina-collider",
     link: "https://tomsylva.github.io/pina-collider/",
     image: "./pina.png",
-    // video: "./pina-video.mov",
     display: "./pina-display.png",
 }
 
@@ -16,7 +15,6 @@ export const create = {
     github: "https://github.com/Tomsylva/create-hub",
     link: "https://create-hub.herokuapp.com/",
     image: "./create.png",
-    // video: "./create-video.mov",
     display: "./create-display.png"
 }
 
@@ -27,7 +25,6 @@ export const beepo = {
     github: "https://github.com/Tomsylva/beepo",
     link: "https://beepo.netlify.app/",
     image: "./beepo.png",
-    // video: "./beepo-demo.mp4",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:6822819835471257601/",
     display: "./beepo-display.png",
 }
@@ -39,7 +36,6 @@ export const vegetables = {
     github: "https://github.com/Tomsylva/finish-your-vegetables",
     link: "https://finish-your-vegetables.netlify.app/",
     image: "./vegetables.png",
-    // video: "./vegetables-video.mov",
     display: "./vegetables-display.png",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:6817810944068997120/"
 }
@@ -51,7 +47,6 @@ export const elephant = {
     github: "https://github.com/Tomsylva/black-elephant-band",
     link: "http://theblackelephantband.com/",
     image: "./elephant.png",
-    // video: "./elephant-video.mov",
     display: "./elephant-display.png"
 }
 

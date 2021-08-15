@@ -4,7 +4,6 @@ interface ProjectDivProps {
     image?: string;
     description?: string;
     github?: string;
-    // video?: string;
     technologies?: string[];
     display?: string;
     demo?: string;
