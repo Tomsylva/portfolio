@@ -1,5 +1,5 @@
 import ProjectDiv from "./ProjectDiv";
-import {pina, create, elephant, portfolio, vegetables, beepo} from "./projects-db";
+import {pina, create, elephant, portfolio, vegetables, beepo, musicPage} from "./projects-db";
 import {Swiper, SwiperSlide} from "swiper/react";
 import SwiperCore, {Navigation, Pagination} from "swiper";
 import 'swiper/swiper.scss';
@@ -32,6 +32,7 @@ function Projects() : JSX.Element {
       <SwiperSlide><ProjectDiv name={elephant.name} link={elephant.link} image={elephant.image} description={elephant.description} github={elephant.github} technologies={elephant.technologies} display={elephant.display}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={create.name} link={create.link} image={create.image} description={create.description} github={create.github} technologies={create.technologies} display={create.display}/></SwiperSlide>
       <SwiperSlide><ProjectDiv name={portfolio.name} link={portfolio.link} image={portfolio.image} description={portfolio.description} github={portfolio.github} technologies={portfolio.technologies} display={portfolio.display}/></SwiperSlide>
+      <SwiperSlide><ProjectDiv name={musicPage.name} link={musicPage.link} image={musicPage.image} description={musicPage.description} github={musicPage.github} technologies={musicPage.technologies} display={musicPage.display}/></SwiperSlide>
 
     </Swiper>
         </motion.div>

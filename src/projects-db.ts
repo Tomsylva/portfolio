@@ -59,3 +59,13 @@ export const portfolio = {
     image: "./portfolio.png",
     display: "./portfolio-display.png"
 }
+
+export const musicPage = {
+    name: "Tom Sylva Music",
+    description: "A website for my solo music project (under construction)",
+    technologies: ["NextJS", "JavaScript", "ReactJS", "HTML", "CSS", "ThreeJS", "FramerMotion", "NodeJS"],
+    github: "https://github.com/Tomsylva/music-website",
+    link: "https://tom-sylva-music.netlify.app/",
+    image: "./music-display.png",
+    display: "./music.png"
+}
