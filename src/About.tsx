@@ -13,7 +13,7 @@ function About() : JSX.Element {
         className="about-div">
            <h1>About</h1>
            <br />
-           <p>Full stack web developer based in Nürnberg, Germany.</p>
+           <p>Javascript engineer at Klim in Germany.</p>
            <p><img src="./ironhack.png" alt="ironhack logo" className="ironhack"/> IronHack web development bootcamp graduate.</p>
            <br />
            <motion.div
